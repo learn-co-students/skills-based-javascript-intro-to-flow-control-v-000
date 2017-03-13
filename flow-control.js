@@ -35,11 +35,17 @@ function ageChecker(age) {
 // // The body of the function should use the ternary operator to return "You are a teenager"
 // // if age is between 13-19 and returns "You are not a teenager" if the age is anything else.
 
+// function ternaryTeenager(age) {
+//   if (13 <= age && age <= 19)
+//   {return "You are a teenager"}
+//   else
+//   {return "You are not a teenager"}
+// }
+
 function ternaryTeenager(age) {
-  if (13 <= age && age <= 19)
-  {return "You are a teenager"}
-  else
-  {return "You are not a teenager"}
+  return age >= 13 && age < 20 ?
+  "You are a teenager" :
+  "You are not a teenager"
 }
 
 // + Define a function switchAge that accepts an age as a parameter. The case statement should
