@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "rules": {
+      "quotes": [0],
+      "no-unused-vars": [0]
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ]
+}
